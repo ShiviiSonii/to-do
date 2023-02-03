@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo</title>
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="signup.html" />
+  </head>
+  <body>
+    <nav class="navbar bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">ToDo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">ToDo</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="/register">Sign Up</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/login">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#feedback">Feedback</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero-image" id="home">
+      <div class="hero-text">
+        <h1 class="heading">
+          Get organized and stay on top of your task with our ToDo List Web App.
+        </h1>
+        <a href="/register">
+          <button type="button" class="btn btn-lg btn-secondary">SignUp</button>
+        </a>
+        <a href="/login">
+          <button type="button" class="btn btn-lg btn-secondary">Login</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="row feature">
+      <div class="align feature-box col-lg-4">
+        <h3>Easy To Use</h3>
+        <p>Add, Delete & edit items with just a few clicks</p>
+      </div>
+      <div class="align feature-box col-lg-4">
+        <h3>Stay on Top</h3>
+        <p>Intuitive way to stay on top of your tasks</p>
+      </div>
+      <div class="align feature-box col-lg-4">
+        <h3>User Friendly</h3>
+        <p>Making it easy for anyone to stay organized</p>
+      </div>
+    </div>
+    <div>
+      <div class="skill-row">
+        <img class="edit-size1" src="img1.jpg" alt="Coffee" />
+        <h3>User Friendly</h3>
+        <p>
+          It is designed to be user-friendly and accessible, making it easy for
+          anyone to stay organized and on top of their tasks.Whether you're a
+          busy professional, a student,or just looking for a way to keep track
+          of your personal responsibilities,our website is the perfect solution.
+        </p>
+      </div>
+
+      <div class="skill-row">
+        <img class="edit-size2" src="img2.jpg" alt="Coffee" />
+        <h3>Create Multiple Lists</h3>
+        <p>
+          You can use our website to create multiple lists,each with its own set
+          of tasks, so you can stay on top of your work,personal,and even team
+          projects.And infact your data is safe, secure and easily accessible.
+        </p>
+      </div>
+    </div>
+
+    <section class="page-section bg-color" id="about">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="text-white mt-0">We've got what you need!</h2>
+            <hr class="divider divider-light" />
+            <p class="text-white-75 mb-4">
+              No more forgotten deadlines or missed responsibilities - our ToDo
+              list website has got you covered.
+            </p>
+            <a class="btn btn-light btn-xl" href="#home">Get Started!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Section: Contact v.2-->
+    <section class="mb-4 contact" id="feedback">
+      <!--Section heading-->
+      <h2 class="h1-responsive font-weight-bold text-center my-4">
+        Contact us
+      </h2>
+      <!--Section description-->
+      <p class="text-center w-responsive mx-auto mb-5">
+        Do you have any questions? Want to get in touch? We'd love to hear from
+        you. Here's how you can reach us...
+      </p>
+
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+          <form
+            id="contact-form"
+            name="contact-form"
+            action="mail.php"
+            method="POST"
+          >
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-control"
+                  />
+                  <label for="name" class="">Your name</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    class="form-control"
+                  />
+                  <label for="email" class="">Your email</label>
+                </div>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-md-12">
+                <div class="md-form mb-0">
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    class="form-control"
+                  />
+                  <label for="subject" class="">Subject</label>
+                </div>
+              </div>
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-md-12">
+                <div class="md-form">
+                  <textarea
+                    type="text"
+                    id="message"
+                    name="message"
+                    rows="2"
+                    class="form-control md-textarea"
+                  ></textarea>
+                  <label for="message">Your message</label>
+                </div>
+              </div>
+            </div>
+            <!--Grid row-->
+          </form>
+
+          <div class="text-center text-md-left">
+            <a
+              class="btn btn-lg btn-secondary"
+              onclick="document.getElementById('contact-form').submit();"
+              >Send</a
+            >
+          </div>
+          <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+            <li>
+              <i class="fas fa-map-marker-alt fa-2x"></i>
+              <p>Lucknow, India</p>
+            </li>
+
+            <li>
+              <i class="fab fa-linkedin-in mt-4 fa-2x"></i>
+              <p>www.linkedin-shivi-soni.com</p>
+            </li>
+
+            <li>
+              <i class="fas fa-envelope mt-4 fa-2x"></i>
+              <p>1111dhruvsoni@gmail.com</p>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+    </section>
+    <!--Section: Contact v.2-->
+
+    <footer class="bg-light text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+
+          <!-- Twitter -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #55acee"
+            href="#!"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+
+          <!-- Google -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #dd4b39"
+            href="#!"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+
+          <!-- Linkedin -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca"
+            href="#!"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <!-- Github -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #333333"
+            href="#!"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: #595755">
+        © 2023 Copyright: ToDo
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </body>
+</html>
